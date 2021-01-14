@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  /* background: url("../img/hero-bg.jpg") top right no-repeat; */
   background-size: cover;
   position: relative;
 }
@@ -942,9 +942,9 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
+/* .contact .info .email, .contact .info .phone {
   margin-top: 40px;
-}
+} */
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #0563bb;
@@ -1176,3 +1176,6 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.upwork svg {height: 20px;width: 20px;display: block;}
+.upwork:hover .green {fill: #0563bb;}
